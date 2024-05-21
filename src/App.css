@@ -1,7 +1,5 @@
 .body {
-  height: 100%;
-  width: 100%;
-  background-color: hsl(263deg 11.39% 65.51% / 35.6%);
+  background-color: wheat;
 }
 
 .image-shadow {
