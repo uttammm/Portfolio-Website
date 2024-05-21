@@ -1,21 +1,9 @@
 import './App.css';
+import { Welcome } from './components/welcome';
 
 function App() {
-  return (
-    <>
-    <div className="image-shadow">
-    <img src='profile image.jpg' className='image'></img>
-    </div>
-    
-    </>
-    
-  );
+  return <Welcome></Welcome>
 }
 
-function Mybutton() {
-  return(
-    <button>' '</button>
-  )
-}
 
 export default App;
