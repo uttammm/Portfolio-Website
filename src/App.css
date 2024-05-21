@@ -1,20 +1,30 @@
 .body {
-
+  height: 100%;
+  width: 100%;
+  background-color: hsl(263deg 11.39% 65.51% / 35.6%);
 }
 
 .image-shadow {
   background-color: hsla(296, 9%, 39%, 0.356);
   height: 350px;
   width: 350px;
-  position: relative;
-  left: 800px;
-  top: 150px;
+  position: absolute;
+  left: 55%;
+  top: 30%;
 }
 
 .image {
   height: 250px;
   width: 250px;
-  position: relative;
+  position: absolute;
   top: 13%;
   left: -15%;
+}
+
+.welcome-text {
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  left: 20%;
+  top: 30%;
 }
