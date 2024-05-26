@@ -1,11 +1,7 @@
-//create a yaml doc to store projects 
-//import yaml file here
 
-export function Projects(){
-    //return an array of project items
+
+function Projects(){
+    
 }
 
-
-function ProjectItem(){
-    //add project item definition
-}
+export default Projects;
