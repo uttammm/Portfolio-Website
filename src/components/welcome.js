@@ -1,17 +1,16 @@
 export function Welcome(){
     return (
         <>
-        <div className="body">
-          <div className="welcome-text">
-          <h1>Lorem Ipsum</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div className="background-container">
+          <div className="intro-container">
+          <h1 className="intro-heading"> Hi, I am Uttam...</h1>
+          <p className="intro-text"> A passionate and dedicated software developer with a strong background in building robust and user-friendly applications.</p>
+        <p className="intro-text">I thrive on challenges and constantly seek to expand my knowledge and expertise. My work is driven by a commitment to excellence, creativity, and a keen eye for detail.</p>
+        <p className="intro-text">I invite you to explore my projects and learn more about the skills and experiences that have shaped my tech journey.</p>
+        <p className="intro-text">I look forward to connecting with you! :)</p>
+          </div>
+        {/* <img src='profile.png' className='image'></img> */}
         </div>
-        <div className="image-shadow">
-        <img src='profile image.jpg' className='image'></img>
-        </div>
-        </div>
-        
-        
         </>
       );
 }
