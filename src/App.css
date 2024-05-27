@@ -17,34 +17,70 @@ body, html {
   background-position: center;
 }
 
-.image {
-  height: fit-content;
-  width: fit-content;
-  position: absolute;
-  bottom: 0%;
-  left: 20%;
-}
 
-.intro-container {
+.github-icon {
   display: block;
   position: absolute;
-  right: 20%;
-  top: 10%;
-  width: 400px;
-  height: 700px;
+  height: 40px;
+  width: 40px;
+  left: 30px;
+  top: 200px;
+}
+
+.leetcode-icon {
+  display: block;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 30px;
+  top: 300px;
+}
+
+.linkedin-icon {
+  display: block;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 30px;
+  top: 400px;
+}
+
+.hackerrank-icon {
+  display: block;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 30px;
+  top: 500px;
+}
+
+.image {
+  height: 600px;
+  position: absolute;
+  bottom: 0%;
+  left: 10%;
 }
 
 .intro-heading {
-  display: flex;
-  color: black;
-  font-size: xx-large;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: block;
+  position: absolute;
+  color: lightgray;
+  font-size: 10vh;
+  font-family:sans-serif;
+  font-weight: bold;
+  right: 30%;
+  top: 20%;
 }
 
 .intro-text {
-  display: flex;
-  color: black;
-  font-size: large;
+  display: block;
+  position: absolute;
+  right: 35%;
+  top: 40%;
+  height: 10vh;
+  width: 60vh;
+  color: gray;
+  font-size: 5vh;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -56,7 +92,6 @@ body, html {
   margin: 20px;
 }
 
-/* src/ProfileCard.css */
 .profile-card {
   background: white;
   border-radius: 10px;

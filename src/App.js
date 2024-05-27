@@ -3,15 +3,13 @@ import { Welcome } from './components/welcome';
 import Projects from './components/projects';
 import ProfileCard from './components/profilecard';
 import profiles from './components/profiles';
+import Header from './components/header';
 
 function App() {
   return (
     <div className='background-container'>
-      <div className="profile-grid">
-      {profiles.map(profile => (
-        <ProfileCard key={profile.name} profile={profile} />
-      ))}
-    </div>
+      <Header></Header>
+      <Welcome></Welcome>
     </div>
   );
 }
